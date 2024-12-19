@@ -1,0 +1,521 @@
+   body{
+      background-color: rgb(242, 245, 245);
+      margin: 1;
+      padding: 1;
+   }
+   #current-date{
+      text-align: left;
+      position: absolute;
+      font-weight: bold;
+      left: 0;
+      top: 5px;
+      margin-left: 10px;
+      color: rgba(6, 86, 179, 0.897);
+      
+   }
+   
+   .heading{
+      list-style-type:none;
+      display: flex;
+      justify-content: flex-end;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+background-color: white;
+height: 35px;
+padding: 0px;
+margin-top: 0.2cm;
+   }
+   .small{
+      display: inline-block;
+      padding: auto;
+      margin-right: 30px;
+      margin-top: 5px;
+   }
+   .login{
+      background-color: #0d65c9f3;
+      color: white;
+     cursor: pointer;
+     padding: 4px;
+     margin-top: 0px;
+   }
+   .login:hover{
+      color:white;
+      background-color: rgb(177, 24, 24);
+   }
+
+   .eng{
+      height: 22px;
+      width: 55px;
+      padding: 2px;
+     
+   }
+   .eng:hover{
+      color: white;
+      background-color: rgb(119, 119, 133);
+   }
+   .nep{
+      height: 22px;
+      width: 55px;
+      padding: 2px;
+     
+   }
+   .nep:hover{
+      color: white;
+      background-color: rgb(119, 119, 133);
+   }
+   /* .heading li{
+      display: inline-block;
+      justify-content: flex-end;
+   }
+  */
+
+   .lwn{
+      display: flex;
+      top: 70px;
+       box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      padding-bottom: 0px; 
+      position: static;
+      z-index: auto;
+      margin-top: -0.5cm;
+   
+      
+   }
+   /* .lwn .col-md{
+      margin: 0;
+      display: block;
+      
+   } */
+.logo{
+      margin-top: 10px;
+
+}
+   .flag{
+      margin-left: auto;
+      margin-right: 0;
+      object-fit: contain;
+      
+   }
+   .img{
+      height: 110px;
+      width: 90px;
+      margin-top: 4px;
+      margin-right: 200px;
+
+   }
+
+   .col-md{
+      text-align: center;
+      font-size: 14px;
+      line-height: 1;
+     
+      color: rgb(216, 29, 29);
+      margin-left: 390px;
+   }
+   .col-md2{
+      font-weight: bold;
+   }
+   .col-md3{
+      font-weight: bold;
+      color: brown;
+   }
+   @keyframes toggleVisibility {
+      0%, 100% {
+        opacity: 0;  
+      }
+      50% {
+        opacity: 1; 
+      }
+    }
+    .col-md3{
+      animation: toggleVisibility 3.5s infinite; 
+    }
+    
+    
+    .homn{
+      list-style-type: none;
+      background-color: #0d65c9f3;
+      color: white;
+      padding-left: 10px;
+      margin-top: 2px;
+      height: auto;
+      padding: auto;
+    }
+    .homn .home-button:hover{
+         background-color: rgb(216, 29, 29);
+         padding: 4px;
+    }
+    .homn li{
+      display:inline-block;
+      padding: 15px; 
+      cursor: pointer;
+      
+    }
+    .homn li:hover{
+      background-color: green;
+      color: white;
+    }
+    .search{
+      width: 160px;
+      padding:5px;
+    }
+
+    .dropdown{display: none;}
+   ul li:hover .dropdown{
+   display: block;
+   position: absolute;
+   margin-left: -0.39cm;
+   margin-top: 0.42cm;
+}
+.dropdown ul{
+   margin: 0;
+   padding: 0;
+
+}
+.dropdown ul li{
+   display:block; 
+   background-color: white;
+   color: black;
+   line-height: 2px;  
+   cursor: pointer;
+
+
+}
+.dropdown ul li:hover{
+      background-color: rgb(76, 158, 76);
+      color: white;
+
+  }
+  .drop{display: none;}
+  .dropdown ul li:hover .drop{
+   display: block; 
+   position: absolute;
+   margin-left: 5cm;
+   
+  }
+  .drop ul li{
+   display: block;
+   margin-top: 0.1cm;
+   width: 900px;
+   height: fit-content; 
+
+  }
+
+.dropdown1{display: none;}
+ ul li:hover .dropdown1{
+   display: block;
+   position: absolute;
+   margin-top: 0.42cm;
+   margin-left: -0.39cm;
+
+  }
+  .dropdown1 ul{
+   margin: 0;
+   padding: 0;
+  }
+  .dropdown1 ul li{
+   display:block; 
+   background-color: white;
+   color: black;
+   line-height: 2px;  
+   cursor: pointer;
+   padding-left: 0.2cm;
+  }
+
+.dropdown1 ul li:hover{
+   background-color: rgb(76, 158, 76);
+   color: white;
+
+}
+.dropdown2{
+   display: none;
+}
+ul li:hover .dropdown2{
+   display: block;
+   position: absolute;
+   margin-top: 0.42cm;
+   margin-left: -0.39cm;
+}
+.dropdown2 ul{
+   margin: 0;
+   padding: 0;
+}
+.dropdown2 ul li{
+   display: block;
+   background-color: white;
+   color: black;
+   line-height: 2px;
+   cursor: pointer;
+   padding-left: 0.2cm;
+}
+.dropdown2 ul li:hover{
+   background-color: rgb(76, 158, 76);
+   color: white;
+}
+
+.dropdown3{display: none;}
+ul li:hover .dropdown3{
+   display: block;
+   position: absolute;
+   margin-top: 0.42cm;
+   margin-left: -0.39cm;
+}
+.dropdown3 ul {
+   margin: 0;
+   padding: 0;
+}
+.dropdown3 ul li{
+   display: block;
+   background-color: white;
+   color: black;
+   line-height:2px ;
+   padding-left: 0.3cm;
+   cursor: pointer;
+}
+.dropdown3 ul li:hover{
+   background-color: rgb(76, 158, 76);
+   color: white;
+}
+
+.dropdown4{display: none;}
+ul li:hover .dropdown4{
+   display: block;
+   position: absolute;
+   margin-top: 0.42cm;
+   margin-left: -0.39cm;
+
+}
+.dropdown4 ul{
+   margin: 0;
+   padding: 0;
+}
+.dropdown4 ul li{
+   display: block;
+   background-color: white;
+   color: black;
+   line-height: 2px;
+   padding-left: 0.3cm;
+   cursor: pointer;
+
+}
+.dropdown4 ul li:hover{
+   background-color: rgb(76, 158, 76);
+   color: white;
+}
+.dropdown5{display: none;}
+ul li:hover .dropdown5{
+   display: block;
+   position: absolute;
+   margin-top: 0.42cm;
+   margin-left: -0.39cm;
+}
+.dropdown5 ul{
+   margin: 0;
+   padding: 0;
+}
+.dropdown5 ul li{
+   display: block;
+   line-height: 2px;
+   padding-left: 0.2cm;
+   background-color: white;
+   color: black;
+}
+.dropdown5 ul li:hover{
+   background-color: rgb(76, 158, 76);
+   color: white;
+}
+.h1{
+   display: block;
+   border: 1px solid black;
+   margin-top: -0.4cm;
+   height: 30px;
+   
+} 
+.p1{
+   display: flex; 
+   background-color: rgb(192, 46, 46);
+   width: 65px;
+   height: 30px;
+}
+.h1 .p1 p{
+   padding-left: 5px;
+   color:white;
+   font-size: 13px;
+   margin-top: 0.2cm;
+}
+.dropdown ul a{ text-decoration: none;}
+.parc{
+   margin-top: -6cm;
+   display: block;
+   margin-left: 450px;
+   line-height: 25px;
+   padding: auto;
+}
+.parc1{
+   text-align: justify;
+   margin-right: 6px;
+   font-size: 15px;
+}
+.parc2{
+   text-align: justify;
+   margin-right: 6px;
+   font-size: 15px;
+}
+.parc3{
+   text-align: justify;
+   margin-right: 6px;
+   font-size: 15px;
+}
+.main{
+   display: block;
+
+}
+.main ul p{
+margin-left: 3cm;
+   font-weight: bold;
+   padding-top: 0.3cm;
+   margin-top: -0.2cm;
+}
+.main ul{
+   color: black;
+   font-size: 13px;
+   list-style-type: none;
+   background-color:white;
+   padding-right: 5cm;
+   padding-bottom: 0.3cm;
+
+}
+.main ul li{
+   display: block;
+   border: 1px solid lightgray;
+   border-color: rgba(212, 209, 209, 0.96);
+   margin-left: -0.8cm;
+   border-width: 2px;
+   padding: 10px;
+   margin-right: -4.7cm;
+   cursor: pointer;
+   
+}
+.jet{
+   display: flex;
+}
+.middleimg{
+   padding-left: 1cm;
+ 
+}
+.middleimg img{
+   height: 370px;
+    margin-top: 0.2cm;
+    width: 19cm;
+}
+.sideimg{
+   
+}
+
+.footer {
+   display: flex;
+   gap: 60px;
+   background-image: url('https://molmac.gandaki.gov.np/assets/image/footer.jpg');
+   height: 17rem; 
+   width: auto; 
+   margin-right: -8px;
+   padding-bottom: 8cm;
+   background-size: cover; 
+   background-repeat: no-repeat; 
+   background-position: top;
+   box-sizing: border-box;
+ }
+.footer .footer1{
+   color: white;
+   margin-top: -0.2cm;
+   padding-top: 0.5cm;
+}
+.footer1 ul{
+   list-style-type: none;
+   line-height: 35px;
+}
+.footer1 ul .sam{
+   font-size: 18px;
+   margin-left: -0.5cm;
+   text-decoration: underline;
+   font-style: normal;
+}
+.footer1 ul li{
+   font-size: 13px;
+   line-height: 25px;
+   cursor: pointer;
+}
+.footer2{
+   color: white;
+   margin-top: 0.5cm;
+   margin-left: -1cm;
+}
+.footer2 ul .sam1{
+      font-size: 18px;
+      text-decoration: underline;
+      font-style: normal;
+}
+.footer2 ul li{
+   margin-top: 0.3cm;
+}
+.footer2 .sam2{
+  margin-left: 1.2cm;
+  width: 100px;
+    height: 12vh;
+
+   border: 1px solid rgb(45, 45, 180);
+}
+
+   .footer2 .sam3{
+   text-decoration: underline;
+   font-style: normal;
+   font-size: 15px;
+   margin-left: -0.04cm;
+}
+.sam2 .tabl{
+   margin-top: 0.2cm;
+   font-size: 11px;
+   margin-left: -0.55cm;
+}
+.sam2 .tabl td{
+   padding-left: 0.4cm;
+   
+}
+.sam2 ul{
+   margin-left: -0.6cm;
+   margin-top: 0.3cm;
+}
+.map{
+   margin-top: 1.1cm;
+   margin-bottom: 6cm;
+   margin-left: 2cm;
+
+  
+}
+.footer4{
+   color: white;
+   margin-top: 1.1cm;
+   margin-left: 1.7cm;
+}
+.footer4 .foo{
+   text-decoration: underline;
+   font-style: normal;
+  
+}
+.footer_table ul{
+   list-style-type: none;
+   font-size: 13px;
+   margin-left: -1cm;
+}
+.footer_table ul li{
+   border: 1px solid white;
+   padding: 4px;
+   
+}
+.footer5{
+   display:flex;
+   justify-content: space-between;
+   width: 98.55%;
+   font-size: 14px;
+   color: white;
+   background-color: #0d65c9f3;
+   padding: 15px;
+}
