@@ -1,8 +1,10 @@
    body{
       background-color: rgb(242, 245, 245);
-      margin: 1;
-      padding: 1;
-   }
+      padding: 0%;
+      margin-right: 8px;
+      margin-left: 0px;
+  }
+   
    #current-date{
       text-align: left;
       position: absolute;
@@ -406,8 +408,88 @@ margin-left: 3cm;
     margin-top: 0.2cm;
     width: 19cm;
 }
-.sideimg{
-   
+
+.img1{
+   border: 1px solid rgb(172, 172, 172);
+   border-width: 3px;
+   border-radius: 10px;
+   margin-left: 1cm;
+   margin-top: 0.2cm;
+
+}
+.img1 h5{
+   font-size: 14px;
+   color: #0d65c9f3;
+   text-align: center;
+   margin-top: 0.2cm;
+   margin-bottom: -0.2cm;
+}
+.img2 h5{
+   font-size: 14px;
+   color: #0d65c9f3;
+   text-align: center;
+   margin-top: 0.2cm;
+   margin-bottom: -0.2cm;
+}
+
+.img1 img{
+      padding-right: 2px;
+    height: 120px;
+    width: 3cm;
+    margin-left: 2.5cm;
+    margin-bottom: 0.6cm;
+    margin-right: 2.5cm;
+    margin-top: 0.2cm;
+    border: 2px solid  #0d65c9f3;
+}
+.img2{
+   border: 1px solid rgb(172, 172, 172);
+   border-width: 3px;
+   border-radius: 10px;
+   margin-left: 1cm;
+   margin-top: 0.15cm;
+
+}
+.img2 img{
+      padding-right: 2px;
+    height: 120px;
+    width: 3cm;
+    margin-left: 2.5cm;
+    margin-bottom: 0.6cm;
+    margin-right: 2.5cm;
+    margin-top: 0.2cm;
+    border: 2px solid #0d65c9f3;
+}
+
+.mname{
+   background-color: rgb(192, 46, 46);
+   border-bottom-left-radius: 9px;
+   border-bottom-right-radius: 9px;
+   text-align: center;
+   margin-top: -0.5cm;
+}
+.mname li{
+color: white;
+list-style-type: none;
+margin-top: -24px;
+padding-top: 5px;
+cursor: pointer;
+
+}
+.sname{
+   background-color: rgb(192, 46, 46);
+   border-bottom-left-radius: 9px;
+   border-bottom-right-radius: 9px;
+   text-align: center;
+   margin-top: -0.5cm;
+}
+.sname li{
+color: white;
+list-style-type: none;
+margin-top: -24px;
+padding-top: 5px;
+cursor: pointer;
+
 }
 
 .footer {
@@ -518,4 +600,7 @@ margin-left: 3cm;
    color: white;
    background-color: #0d65c9f3;
    padding: 15px;
+}
+.footer5 a{
+   margin-right: 15px;
 }
