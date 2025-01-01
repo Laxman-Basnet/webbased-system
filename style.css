@@ -405,7 +405,7 @@ ul li:hover .dropdown5{
    background-color:white;
    padding-right: 5cm;
    padding-bottom: 0.3cm;
-   height: 350px;
+   height: 378px;
 }
 .main ul li{
    display: block;
@@ -416,14 +416,22 @@ ul li:hover .dropdown5{
    padding: 10px;
    margin-right: -4.7cm;
    cursor: pointer;
-   height: 50px;
+   height: 57px;
    width: 15cm;
    font-size: 16px;
    margin-top: 2px;
    padding: 10px;
    border-radius: 5px;
+   transition: transform 0.3s ease;
   
 }
+.main ul li span{
+   margin-left: 22px;
+}
+.main ul li:hover {
+   transform: translate(5px, 1px); 
+   background-color: #0693c3;
+ }
 
 .jet{
    display: flex;
