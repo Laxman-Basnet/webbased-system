@@ -365,28 +365,35 @@ ul li:hover .dropdown5{
    margin-top: 0.2cm;
    
 }
+
+
 .dropdown ul a{ text-decoration: none;}
 .parc{
-   margin-top: -6cm;
+   margin-top: 0cm;
    display: block;
-   margin-left: 450px;
-   line-height: 25px;
+   margin-left: 61px;
+   line-height: 23px;
    padding: auto;
+   margin-right: 27px;
+   font-size: 21px;
 }
 .parc1{
    text-align: justify;
    margin-right: 6px;
-   font-size: 15px;
+   font-size: 19px;
+  line-height: 29px;
 }
 .parc2{
    text-align: justify;
    margin-right: 6px;
-   font-size: 15px;
+   font-size: 19px;
+   line-height: 29px;
 }
 .parc3{
    text-align: justify;
    margin-right: 6px;
-   font-size: 15px;
+   font-size: 19px;
+  line-height: 29px;
 }
 .main{
    display: block;
@@ -404,8 +411,9 @@ ul li:hover .dropdown5{
    list-style-type: none;
    background-color:white;
    padding-right: 5cm;
-   padding-bottom: 0.3cm;
-   height: 378px;
+   /* padding-bottom: 0.3cm; */
+   height: 412px;
+   margin-top: 9px;
 }
 .main ul li{
    display: block;
@@ -419,7 +427,7 @@ ul li:hover .dropdown5{
    height: 57px;
    width: 15cm;
    font-size: 16px;
-   margin-top: 2px;
+   margin-top: 3px;
    padding: 10px;
    border-radius: 5px;
    transition: transform 0.3s ease;
@@ -449,7 +457,7 @@ ul li:hover .dropdown5{
  .imag {
    display: block;
    width: 100%;
-   height: 10.7cm;
+   height: 11.7cm;
  }
  
  .overlay {
@@ -492,7 +500,8 @@ ul li:hover .dropdown5{
    border-radius: 10px;
    margin-left: 1cm;
    margin-top: 0.2cm;
-   height: 5cm;
+   height: 193px;
+   margin-right: 13px;
   
 }
 .img1 h5{
@@ -526,8 +535,8 @@ ul li:hover .dropdown5{
    border-radius: 10px;
    margin-left: 1cm;
    margin-top: 0.15cm;
-   height: 5cm;
-
+   height: 194px;
+   margin-right: 13px;
 }
 .img2 img{
       padding-right: 2px;
@@ -554,7 +563,7 @@ list-style-type: none;
 margin-top: -24px;
 padding-top: 5px;
 cursor: pointer;
-height: 31px;
+height: 30px;
 
 }
 .mname:hover{
@@ -583,6 +592,7 @@ height: 31px;
 .desc{
    display: block;
    margin-left: 9px;
+   margin-top: -9px;
 }
 .desc h5{
    border: 1px solid black;
@@ -648,14 +658,12 @@ height: 31px;
    text-align: center;
    padding-top: 8px;
    margin-top: -3px;
-   border-left-width: 18px;
-   border-right-width: 19px;
    cursor: pointer;
    width: 5cm;
    /* font-size: 16px;  */
 }
 .holo-image1 img{
-   height: 2cm;
+   height: 70px;
 }
 .holo-image1:hover{
    
@@ -694,7 +702,7 @@ height: 31px;
    border-left-width: 21px;
    border-right-width: 25px;
    cursor: pointer;
-  width: 3cm;
+  width: 4cm;
 }
 
 .holo-image3{
@@ -707,7 +715,7 @@ height: 31px;
    border-left-width: 21px;
    border-right-width: 25px;
    cursor: pointer;
-   width: 3cm;
+   width: 4cm;
 }
 .phenail{
    
@@ -819,7 +827,7 @@ height: 31px;
    border: 3px solid rgb(172, 172, 172);
    border-radius: 8px;
    width: 2cm;
-   height: 260px;
+   height: 268px;
    margin-top: 45px;
    padding-right: 9cm;
    padding-bottom: 33px;
@@ -975,7 +983,7 @@ height: 31px;
    border: 3px solid rgb(172, 172, 172);
    border-radius: 8px;
    width: 2cm;
-   height: 262px;
+   height: 271px;
    margin-top: 14px;
    padding-right: 9cm;
    padding-bottom: 33px;
@@ -1342,7 +1350,7 @@ height: 31px;
    text-align: left;
    margin-right: 16px;
    margin-left: -17px;
-   cursor: pointer;
+  
    
 }
 .bars ul li{
@@ -1356,6 +1364,7 @@ height: 31px;
    border-radius: 6px;
    margin-bottom: -1cm;
    transition: all 0.9s ease;
+   cursor: pointer;
 }
 .bars ul li:hover{
    background-color: rgb(193, 35, 35);
@@ -1368,7 +1377,7 @@ height: 31px;
    display: flex;
    gap: 60px;
    background-image: url(https://molmac.gandaki.gov.np/assets/image/footer.jpg);
-   height: 17rem; 
+   height: 25rem; 
    width: auto; 
    margin-top: -0.4cm;
    margin-left: -8px;
@@ -1381,22 +1390,22 @@ height: 31px;
  }
 .footer .footer1{
    color: white;
-   margin-top: -0.2cm;
+   margin-top: -9px;
    padding-top: 0.5cm;
 }
 .footer1 ul{
    list-style-type: none;
-   line-height: 35px;
+   line-height: 54px;
 }
 .footer1 ul .sam{
-   font-size: 20px;
+   font-size: 22px;
    margin-left: -0.5cm;
    text-decoration: underline;
    font-style: normal;
 }
 .footer1 ul li{
-   font-size: 16px;
-   line-height: 25px;
+   font-size: 17px;
+   line-height: 31px;
    cursor: pointer;
 }
 .footer1 ul .whi:hover{
@@ -1413,7 +1422,7 @@ height: 31px;
    margin-left: -1cm;
 }
 .footer2 ul .sam1{
-      font-size: 20px;
+      font-size: 22px;
       text-decoration: underline;
       font-style: normal;
 }
@@ -1423,7 +1432,7 @@ height: 31px;
 .footer2 .sam2{
   margin-left: 1.2cm;
   width: 103px;
-    height: 10vh;
+    height: 13vh;
 
    border: 1px solid rgb(45, 45, 180);
 }
@@ -1431,12 +1440,12 @@ height: 31px;
    .footer2 .sam3{
    text-decoration: underline;
    font-style: normal;
-   font-size: 16px;
+   font-size: 19px;
    margin-left: -0.04cm;
 }
 .sam2 .tabl{
    margin-top: 0.2cm;
-   font-size: 14px;
+   font-size: 16px;
    margin-left: -0.55cm;
 }
 .sam2 .tabl td{
@@ -1449,29 +1458,32 @@ height: 31px;
 }
 .map{
    margin-top: 1.1cm;
-   margin-bottom: 6cm;
-   margin-left: 2cm;
+   /* margin-bottom: 6cm; */
+   margin-left: 0cm;
 
   
 }
 .footer4{
    color: white;
-   margin-top: 1.1cm;
+   margin-top: 22px;
    margin-left: 1.7cm;
 }
 .footer4 .foo{
    text-decoration: underline;
    font-style: normal;
-  font-size: 20px;
+  font-size: 22px;
 }
 .footer_table ul{
    list-style-type: none;
-   font-size: 14px;
-   margin-left: -1cm;
+   font-size: 19px;
+   margin-left: -86px;
+   margin-top: 2px;
+
 }
 .footer_table ul li{
    border: 1px solid white;
-   padding: 4px;
+   padding: 5px;
+   width: 415px;
    
 }
 .footer5{
@@ -1490,4 +1502,43 @@ height: 31px;
 
 
 
-  
+  .ministry{   
+   padding-right: 84px;
+  }
+  .ministry h4{
+   width: 242px;
+   font-size: 21px;
+   margin-top: 16px;
+   text-align: center;
+  }
+  .ministry ul{
+   
+   list-style-type: none;
+  margin-top: -19px;
+  line-height: 43px;
+  font-size: 19px;
+  margin-right: -67px;
+  margin-left: -20px;
+ 
+  }
+  .ministry ul li{
+   /* background-color: white;  */
+   display: block;
+   border: 1px solid rgb(182, 182, 182);
+   margin-right: 20px;
+  padding-left: 9px;
+  margin-top: 3px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  color: black;
+  list-style-type: none;
+  }
+  .ministry ul li:hover{
+   background-color: #008CBA;
+   color:white; 
+   transform: translate(5px, 1px);
+  }
+  .ministry ul a{
+   text-decoration: none;
+  }
