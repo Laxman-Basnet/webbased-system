@@ -187,8 +187,9 @@
    margin-top: 0.42cm;
 }
 .dropdown ul{
-   margin: 0;
-   padding: 0;
+   margin: -3px;
+  padding: 0;
+  margin-top: 3px;
 
 }
 .dropdown ul li{
@@ -229,14 +230,15 @@
 
   }
   .dropdown1 ul{
-   margin: 0;
+   margin: -4px;
    padding: 0;
+   margin-top: 3px;
   }
   .dropdown1 ul li{
    display:block; 
    background-color: white;
    color: black;
-   line-height: 2px;  
+   line-height: 8px;  
    cursor: pointer;
    padding-left: 0.2cm;
   }
@@ -256,14 +258,15 @@ ul li:hover .dropdown2{
    margin-left: -0.39cm;
 }
 .dropdown2 ul{
-   margin: 0;
-   padding: 0;
+   margin: -4px;
+  padding: 0;
+  margin-top: 3px;
 }
 .dropdown2 ul li{
    display: block;
    background-color: white;
    color: black;
-   line-height: 2px;
+   line-height: 3px;
    cursor: pointer;
    padding-left: 0.2cm;
 }
@@ -280,8 +283,9 @@ ul li:hover .dropdown3{
    margin-left: -0.39cm;
 }
 .dropdown3 ul {
-   margin: 0;
+   margin: -4px;
    padding: 0;
+   margin-top: 3px;
 }
 .dropdown3 ul li{
    display: block;
@@ -305,8 +309,9 @@ ul li:hover .dropdown4{
 
 }
 .dropdown4 ul{
-   margin: 0;
-   padding: 0;
+   margin: -4px;
+  padding: 0;
+  margin-top: 3px;
 }
 .dropdown4 ul li{
    display: block;
@@ -329,8 +334,9 @@ ul li:hover .dropdown5{
    margin-left: -0.39cm;
 }
 .dropdown5 ul{
-   margin: 0;
+   margin: -4px;
    padding: 0;
+   margin-top: 3px;
 }
 .dropdown5 ul li{
    display: block;
@@ -376,12 +382,27 @@ ul li:hover .dropdown5{
    padding: auto;
    margin-right: 27px;
    font-size: 21px;
+  
+
+}
+.parc11{
+   text-align: justify;
+   margin-right: 50px;
+   font-size: 19px;
+  line-height: 29px;
+   height: 699px;
+   overflow: scroll;
+   border: 1px solid black;
+  border-left: none;
+  border-top: none;
+  /* border-bottom: none; */
 }
 .parc1{
    text-align: justify;
    margin-right: 6px;
    font-size: 19px;
   line-height: 29px;
+ 
 }
 .parc2{
    text-align: justify;
@@ -458,6 +479,8 @@ ul li:hover .dropdown5{
    display: block;
    width: 100%;
    height: 11.7cm;
+   position: absolute;
+   z-index: -1;
  }
  
  .overlay {
