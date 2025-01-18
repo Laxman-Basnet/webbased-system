@@ -1596,8 +1596,10 @@ ul li:hover .dropdown5{
    font-size: 19px;
    color: rgb(119, 119, 119); 
    padding-left: 20px;
- 
+   border-radius: 4px;
   }
+ 
+   
 /* 
   .card{
    display: grid;
@@ -1624,13 +1626,51 @@ ul li:hover .dropdown5{
 .card1:hover{
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
    color: red;
+   border-color: lightgray;
    transform: 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
-  .card-0{
+  .card-1{
    display: flex;
    padding-left: 21px;
   font-size: 16px;
   }
+  .card-2{
+   display: flex;
+   padding-left: 21px;
+  font-size: 16px;
+  margin-right: -1cm;
+  }
+  .card-3{
+   display: flex;
+   padding-left: 21px;
+  font-size: 16px;
+  margin-right: -5cm;
+  }
+  .card-4{
+   display: flex;
+   padding-left: 21px;
+  font-size: 16px;
+  margin-right: -3cm;
+  }
+  .card-5{
+   display: flex;
+   padding-left: 21px;
+  font-size: 16px;
+  margin-right: -3cm;
+  }
+  .card-6{
+   display: flex;
+   padding-left: 21px;
+  font-size: 16px;
+  margin-right: -3cm;
+  }
+  .card-7{
+   display: flex;
+   padding-left: 21px;
+  font-size: 16px;
+  margin-right: -2cm;
+  }
+ 
   .card-icon i{
    margin-left: 25px;
   margin-right: 0px;
@@ -1650,6 +1690,114 @@ ul li:hover .dropdown5{
    background-color: #0d65c9f3;
    color: white;
    transform: 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-
 }
+.cards a{
+   text-decoration: none;
+   color: black;
+}
+
+.main-card ul p{
+   margin-left: 3cm;
+   font-weight: bold;
+   padding-top: 0.3cm;
+   margin-top: -0.2cm;
+}
+.main-card ul{
+   color: black;
+   font-size: 13px;
+   list-style-type: none;
+   background-color:white;
+   padding-right: 5cm;
+   /* padding-bottom: 0.3cm; */
+   height: 412px;
+   margin-top: 9px;
+   width: 271px;
+}
+.main-card ul li{
+   display: block;
+   border: 1px solid lightgray;
+   border-color: rgba(212, 209, 209, 0.96);
+   margin-left: -0.8cm;
+   border-width: 2px;
+   padding: 10px;
+   margin-right: -4.7cm;
+   cursor: pointer;
+   height: 57px;
+   width: 12cm;
+   font-size: 16px;
+   margin-top: 3px;
+   padding: 10px;
+   border-radius: 5px;
+   transition: transform 0.3s ease;
   
+}
+.main-card ul li span{
+   margin-left: 22px;
+}
+.main-card ul li:hover{
+      transform: translate(5px, 1px); 
+     background-color: lightgray;
+}
+
+.styled-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin: 25px 0;
+   font-size: 18px;
+   text-align: left;
+   margin-top: 4cm;
+  margin-right: 80px;
+  margin-left: -2.7cm;
+}
+
+.styled-table th, .styled-table td {
+   border: 1px solid #dddddd;
+   padding: 4px;
+   text-align: center;
+}
+
+.styled-table thead tr {
+   background-color: #009879;
+   color: #ffffff;
+   text-align: center   ;
+}
+
+.styled-table tbody tr {
+   border-bottom: 1px solid #dddddd;
+}
+
+/* .styled-table tbody tr:nth-of-type(even) {
+   background-color: #f3f3f3;
+} */
+
+.styled-table tbody tr:last-of-type {
+   border-bottom: 2px solid #009879;
+}
+
+.styled-table a {
+   text-decoration: none;
+   font-size: 18px;
+   color: rgba(34, 106, 222, 0.948);
+}
+ .styled-table td i{
+   color: rgba(34, 106, 222, 0.948);
+}
+.styled-table tbody tr:hover{
+    background-color: lightgrey;
+}
+.styled-table tbody a{
+   list-style-type: none;
+   text-decoration: none;
+}
+.styled-table tbody a:hover{
+color: red;
+cursor: pointer;
+}
+
+.main-card ul a{
+   text-decoration: none;
+   
+}
+.main-card ul span{
+   color: black;
+}
