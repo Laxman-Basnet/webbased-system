@@ -190,6 +190,8 @@
    margin: -3px;
   padding: 0;
   margin-top: 3px;
+  position: relative;
+  z-index: 10;
 
 }
 .dropdown ul li{
@@ -233,6 +235,8 @@
    margin: -4px;
    padding: 0;
    margin-top: 3px;
+   position: relative;
+  z-index: 10;
   }
   .dropdown1 ul li{
    display:block; 
@@ -261,6 +265,8 @@ ul li:hover .dropdown2{
    margin: -4px;
   padding: 0;
   margin-top: 3px;
+  position: relative;
+  z-index: 10;
 }
 .dropdown2 ul li{
    display: block;
@@ -286,6 +292,8 @@ ul li:hover .dropdown3{
    margin: -4px;
    padding: 0;
    margin-top: 3px;
+   position: relative;
+  z-index: 10;
 }
 .dropdown3 ul li{
    display: block;
@@ -312,6 +320,8 @@ ul li:hover .dropdown4{
    margin: -4px;
   padding: 0;
   margin-top: 3px;
+  position: relative;
+  z-index: 10;
 }
 .dropdown4 ul li{
    display: block;
@@ -337,6 +347,8 @@ ul li:hover .dropdown5{
    margin: -4px;
    padding: 0;
    margin-top: 3px;
+   position: relative;
+  z-index: 10;
 }
 .dropdown5 ul li{
    display: block;
@@ -468,9 +480,11 @@ ul li:hover .dropdown5{
 .middleimg {
    position: relative;
    width: 50%;
-   cursor: pointer;
+   cursor: pointer; 
    margin-top: 5px;
    margin-left: 25px;
+
+   
  }
  
  .imag {
@@ -479,6 +493,7 @@ ul li:hover .dropdown5{
    height: 11.7cm;
    position: absolute;
    z-index: -1; 
+   
  }
  
  .overlay {
@@ -1801,3 +1816,232 @@ cursor: pointer;
 .main-card ul span{
    color: black;
 }
+.dropdown3 ul a{
+   text-decoration: none;
+}
+.dropdown4 ul a{
+   text-decoration: none;
+}
+.dropdown5 ul a{
+   text-decoration: none;
+}
+.photo-gallery{
+   display: grid;
+      grid-template-areas: "head head head";
+      gap: 14px;
+}
+.photo-gallery p{
+   font-size: 17px;
+   width: 447px;
+   margin-top: 4.5px;
+  
+}
+ .homn li{
+   margin: auto;
+   color: white;
+ }
+ /* .contact-form{
+   background-color: white;
+   width: 20cm;
+   height: 12cm;
+   line-height: 1.5cm;
+    border-radius: 10px;
+  padding-top: 10px;
+ }
+
+ .contact{
+   display: grid;
+  grid-template-areas:
+"head head head head"; 
+     text-align: center;
+    margin-right: 60px;
+       margin-top: 25px;
+ }
+
+ .contact input{
+   font-size: 17px;
+   padding-left: 10px;
+   margin-right: auto;
+} */
+
+
+
+.containerrr{
+   background-color: white;
+   width: 50%;
+   border-radius: 8px;
+   padding: 30px 28px 40px 40px;
+   box-shadow: 0px 5px 10px rgb(0,0,0,0.2);
+   margin-right: -293px;
+   margin-bottom: -85px;
+}
+.containerrr .content{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 12%;
+}
+ .containerrr .content .left-side{
+   width: 24%;
+   height: 100%;
+   position: relative;
+   margin-top: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    margin-left: 42px;
+    margin-left: 57px;
+ }
+ .containerrr .content .left-side::before{
+   content: '';
+   position: absolute;
+   height: 103%;
+   width: 3.1px;
+   background: #afafb6;
+   right: -117px;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ .containerrr .content .right-side{
+ 
+   width: 50%;
+  margin-right: -8%;
+   /* height: 100%; */
+ }
+ .containerrr .content .left-side .details{
+   margin: 15px;
+   text-align: center;
+ }
+ .containerrr .content .left-side .details i{
+   font-size: 30px;
+   color: rgb(9, 124, 196);
+   margin-bottom: 10px;
+}
+.containerrr .content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.containerrr .content .left-side .details .text-one,
+.containerrr .content .left-side .details .text-two{
+   font-size: 17px;
+   color: #404042;
+   margin-right: -55%;
+  margin-left: -51%;
+}
+.content .right-side .topic-text{
+   font-size: 23px;
+   font-weight: 600;
+   color: rgb(19, 54, 97);
+}
+.right-side p{
+   font-size: 16px;
+  font-style: italic;
+  text-align: justify;
+
+}
+.right-side .input-box{
+   height: 50px;
+   width: 100%;
+   margin: 12px 0;
+   
+}
+ .right-side .input-box input,
+ .right-side .input-box textarea{
+   height: 100%;
+   width: 100%;
+   border: none;
+   background: rgb(240, 239, 239);
+   padding-left: 9px;
+   border-radius: 7px;
+   padding: 0 15px;
+   resize: none;
+   
+ }
+.right-side .message-box{
+   min-height: 140px;
+   margin-top: 6px;
+}
+.right-side .button input[type="submit"]{
+   color: #fff;
+   font-size: 18px;
+   outline: none;
+   border: none;
+   padding: 8px 16px;
+   border-radius: 8px;
+   background: #008CBA;
+   transition: all 0.3s ease;
+   cursor: pointer;
+   margin-left: 13px;
+}
+.button input[type="submit"]:hover{
+   background: rgb(216, 11, 11);
+}
+.right-side .button{
+   display: inline-block;
+   margin-top: 10px;
+}
+@media (max-width: ""){
+
+}
+.con-con{
+   display: flex;
+   gap: 26%;
+}
+.maap iframe{
+   border: 0;
+   margin-top: 80px;
+   height: 81%;
+   width: 182%;
+  border-radius: 7px;
+}
+
+.right-side input:hover::placeholder {
+   color: red;
+ font-weight: bold;
+ }
+.right-side textarea:hover::placeholder {
+   color: red;
+ font-weight: bolder;
+ }
+ .button{
+   display: flex;
+ }
+ .right-side input[type="reset"]:hover {
+   background-color: #c80808;
+   color: white;
+ }
+ .right-side input[type="reset"] {
+   font-size: 16.5px;
+  padding: 13px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 7px;
+   margin-left: 2cm;
+   float: right;
+   height: 46px;
+   margin-top: 9px;
+ }
+ .right-side input::placeholder {
+   font-size: 20px;
+   color: #404042;
+ }
+
+ .right-side textarea::placeholder {
+   font-size: 22px;
+   font-weight: bold;
+  color: #404042;
+ }
+ .right-side input {
+   font-size: 18px;
+ }
+ .right-side textarea {
+   font-size: 16px;
+ }
+ .main ul a{
+   text-decoration: none;
+   color: black;
+ }
