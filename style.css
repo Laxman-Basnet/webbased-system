@@ -2045,3 +2045,32 @@ cursor: pointer;
    text-decoration: none;
    color: black;
  }
+.link_404:hover{
+   cursor: pointer;
+   color: red;
+}
+
+@keyframes fadeIn {
+   0% {
+       opacity: 0;
+       transform: translateY(20px);
+   }
+   100% {
+       opacity: 1;
+       transform: translateY(0);
+   }
+}
+
+.error-container {
+   animation: fadeIn 0.5s ease-in-out 0.7s forwards;
+}
+.error-container {
+   visibility: hidden;
+   animation: showUp 0s linear 0.7s forwards;
+}
+
+@keyframes showUp {
+   to {
+       visibility: visible;
+   }
+}
